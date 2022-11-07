@@ -25,7 +25,7 @@ public class Main {
         lazyHolder = SingletonLazyHolder.getInstancia();
         System.out.println(lazyHolder);
 
-        //Sinlgeton
+        //Strategy
         System.out.println("-----STRATEGY-----");
 
         Comportamento normal = new ComportamentoNormal();
